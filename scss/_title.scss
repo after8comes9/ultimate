@@ -1,0 +1,58 @@
+main .container .title  {
+    margin-top: 100px;
+    width: 50%;
+    position: relative;
+}
+
+main .container .title::before {
+    content: url(/img/deco3.png);
+    position: absolute;
+    top: -2.5em;
+    left: -2.5em;
+}
+
+main .container .title::after {
+    content: url(/img/deco2.png);
+    position: absolute;
+    top: 11em;
+    right: 3em;
+}
+
+main .container .title .more {
+    background: white;
+    color: #000;
+
+}
+
+main .container .title h1 {
+    color: $white;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+}
+
+main .container .title h2 {
+    color: #E8AB36;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.09rem;
+    text-transform: uppercase;
+}
+
+main .container .title p {
+    color: #EFEFEF;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 0.045rem;
+}
+
+main .container .title .started, .more {
+    @extend %btn;
+}
+
+main .container .title .more {
+    background: $white;
+    color: #000;
+}

@@ -1,0 +1,82 @@
+footer .container .topfooter .logo {
+    text-transform: uppercase ;
+    color: $light-red;
+    font-family: Barlow;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+footer .container .topfooter .logo span {
+    color: $white;
+}
+
+footer .container .topfooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+footer .container .topfooter h1 {
+    color: $gray;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+footer .container .topfooter li {
+color: $white;
+font-family: Barlow;
+font-size: 1rem;
+font-weight: 400;
+line-height: 2rem;
+}
+
+footer .container .topfooter .socials {
+    display: flex;
+    gap: 1rem;
+}
+
+footer .container .topfooter .socials a {
+    background-color: #6357F6;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container .topfooter .socials a img {
+    max-width: 1rem;
+}
+
+footer .container .bottomfooter {
+    border-top: solid $white 0.01em;
+    margin-top: 2rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .bottomfooter p {
+    color: $gray;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+footer .container .bottomfooter .legal {
+    color: $white;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+footer .container .bottomfooter .legal a {
+    margin-left: 2rem;
+}

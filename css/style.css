@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300;400;500;800&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header .container {
+  height: 5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  gap: 4em;
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+header .container .nav a::after {
+  content: ".";
+}
+
+header .container .logo {
+  text-transform: uppercase;
+  color: #E6606C;
+  font-family: Barlow;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+header .container .logo span {
+  color: white;
+}
+
+main .container .title {
+  margin-top: 100px;
+  width: 50%;
+  position: relative;
+}
+
+main .container .title::before {
+  content: url(/img/deco3.png);
+  position: absolute;
+  top: -2.5em;
+  left: -2.5em;
+}
+
+main .container .title::after {
+  content: url(/img/deco2.png);
+  position: absolute;
+  top: 11em;
+  right: 3em;
+}
+
+main .container .title .more {
+  background: white;
+  color: #000;
+}
+
+main .container .title h1 {
+  color: #FFF;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 0.18rem;
+  text-transform: uppercase;
+}
+
+main .container .title h2 {
+  color: #E8AB36;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.09rem;
+  text-transform: uppercase;
+}
+
+main .container .title p {
+  color: #EFEFEF;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2rem;
+  letter-spacing: 0.045rem;
+}
+
+main .container .title .started, .more {
+  display: inline-block;
+  border-radius: 4.6875rem;
+  background: #E6606C;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.03938rem;
+  text-transform: uppercase;
+  margin-top: 2em;
+  margin-right: 2em;
+  padding: 1em 2em 1em 2em;
+}
+
+main .container .title .more {
+  background: white;
+  color: #000;
+}
+
+main .container .article {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+main .container .article .articleinfo {
+  position: relative;
+}
+
+main .container .article .articleinfo h3 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+main .container .article .articleinfo h1 {
+  color: #FFF;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+
+main .container .article .articleinfo h2 {
+  color: #FFF;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+main .container .article .articleinfo p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+main .container .article .articleinfo a {
+  display: inline-block;
+  border-radius: 4.6875rem;
+  background: #E6606C;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.03938rem;
+  text-transform: uppercase;
+  margin-top: 2em;
+  margin-right: 2em;
+  padding: 1em 2em 1em 2em;
+}
+
+main .container .article .articleinfo::before {
+  content: url(/img/Ellipse.svg);
+  position: absolute;
+  right: 2rem;
+  top: 5rem;
+}
+
+.morearticles .container .intro {
+  width: 50%;
+  margin-inline: auto;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.morearticles .container .intro::before {
+  content: url(/img/deco3.png);
+  position: absolute;
+  top: -2rem;
+}
+
+.morearticles .container .intro h3 {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+}
+
+.morearticles .container .intro h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 4rem;
+}
+
+.morearticles .container .intro p {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+.morearticles .container .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.morearticles .container .cards .card {
+  border-radius: 0.75rem;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, #4D4F95 0%, #2B2D66 100%);
+  box-shadow: 0px 24px 48px 0px rgba(0, 1, 44, 0.16);
+}
+
+.morearticles .container .cards .card h1 {
+  color: #FFF;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin: 2rem;
+}
+
+.morearticles .container .cards .card h2 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  margin: 2rem;
+}
+
+footer .container .topfooter .logo {
+  text-transform: uppercase;
+  color: #E6606C;
+  font-family: Barlow;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+footer .container .topfooter .logo span {
+  color: white;
+}
+
+footer .container .topfooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+footer .container .topfooter h1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0.1875rem;
+  text-transform: uppercase;
+}
+
+footer .container .topfooter li {
+  color: #FFF;
+  font-family: Barlow;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+footer .container .topfooter .socials {
+  display: flex;
+  gap: 1rem;
+}
+
+footer .container .topfooter .socials a {
+  background-color: #6357F6;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container .topfooter .socials a img {
+  max-width: 1rem;
+}
+
+footer .container .bottomfooter {
+  border-top: solid #FFF 0.01em;
+  margin-top: 2rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .bottomfooter p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+footer .container .bottomfooter .legal {
+  color: #FFF;
+  text-align: right;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+
+footer .container .bottomfooter .legal a {
+  margin-left: 2rem;
+}
+
+body {
+  background: url(/img/deco1.png) no-repeat right top, linear-gradient(237deg, #2C2D65 0.35%, #201F22 100%);
+  font-family: "Barlow", sans-serif;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .nav {
+  display: flex;
+  gap: 4em;
+}
+
+header .container .logo {
+  text-transform: uppercase;
+  color: #E6606C;
+  font-family: Barlow;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}

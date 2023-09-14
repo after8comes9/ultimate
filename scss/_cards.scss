@@ -1,0 +1,71 @@
+.morearticles .container .intro {
+    width: 50%;
+    margin-inline: auto;
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.morearticles .container .intro::before {
+    content: url(/img/deco3.png);
+    position: absolute;
+    top: -2rem;
+}
+
+
+.morearticles .container .intro h3 {
+    color: $gray;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    letter-spacing: 0.1875rem;
+    text-transform: uppercase;
+}
+
+.morearticles .container .intro h1 {
+    color: $white;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 4rem;
+}
+
+.morearticles .container .intro p {
+    color: $gray;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.morearticles .container .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.morearticles .container .cards .card {
+    border-radius: 0.75rem;
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    background: linear-gradient(180deg, #4D4F95 0%, #2B2D66 100%);
+    box-shadow: 0px 24px 48px 0px rgba(0, 1, 44, 0.16);
+}
+
+.morearticles .container .cards .card h1 {
+    color: $white;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+    margin: 2rem;
+}
+
+.morearticles .container .cards .card h2 {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin: 2rem;
+}

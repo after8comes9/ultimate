@@ -1,0 +1,32 @@
+header .container {
+    height: 5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 4em;
+    color: $white;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+header .container .nav a::after {
+    content: ".";
+}
+
+header .container .logo {
+    text-transform: uppercase ;
+    color: $light-red;
+    font-family: Barlow;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
+
+header .container .logo span {
+    color: $white;
+}

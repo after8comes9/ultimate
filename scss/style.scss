@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Barlow:wght@300;400;500;800&display=swap');
+
+@import "reset";
+
+@import "header";
+
+@import "title";
+
+@import "article";
+
+@import "cards";
+
+@import "footer";
+
+@import "buttons";
+
+$light-red: #E6606C;
+$gray: rgba(255, 255, 255, 0.50);
+$white: #FFF;
+
+body {
+    background: url(/img/deco1.png) no-repeat right top, linear-gradient(237deg, #2C2D65 0.35%, #201F22 100%);
+    font-family: 'Barlow', sans-serif;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .nav {
+    display: flex;
+    gap: 4em;
+}
+
+header .container .logo {
+    text-transform: uppercase ;
+    color: $light-red;
+    font-family: Barlow;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal; 
+}
