@@ -5,14 +5,14 @@ main .container .title  {
 }
 
 main .container .title::before {
-    content: url(/img/deco3.png);
+    content: url(img/deco3.png);
     position: absolute;
     top: -2.5em;
     left: -2.5em;
 }
 
 main .container .title::after {
-    content: url(/img/deco2.png);
+    content: url(img/deco2.png);
     position: absolute;
     top: 11em;
     right: 3em;
