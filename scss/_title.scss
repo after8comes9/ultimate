@@ -49,10 +49,9 @@ main .container .title p {
 }
 
 main .container .title .started, .more {
-    @extend %btn;
+    @extend %button-red;
 }
 
 main .container .title .more {
-    background: $white;
-    color: #000;
+    @extend %button-white;
 }

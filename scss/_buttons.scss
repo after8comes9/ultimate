@@ -1,4 +1,4 @@
-%button {    
+%button-red {    
     display: inline-block;
     border-radius: 4.6875rem;
     background: $light-red;
@@ -11,4 +11,10 @@
     margin-top: 2em;
     margin-right: 2em;
     padding: 1em 2em 1em 2em;
+}
+
+%button-white {
+    @extend %button-red;
+    background: $white;
+    color: #000;
 }
